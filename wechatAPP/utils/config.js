@@ -1,0 +1,1 @@
+module.exports = { 'host': 'http://blogs.home.jiashaokj.com/miniapp' };

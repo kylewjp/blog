@@ -1,0 +1,12 @@
+[2018-02-11 22:46:09] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,518,360,369.127007s ]
+
+[2018-02-11 22:46:09] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,518,360,369.170848s ]
+
+[2018-02-11 22:52:10] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,518,360,730.153853s ]
+
+[2018-02-11 22:52:10] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,518,360,730.189423s ]
+
+[2018-02-11 22:52:49] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,518,360,769.003749s ]
+
+[2018-02-11 22:52:49] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,518,360,769.067999s ]
+

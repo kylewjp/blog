@@ -1,0 +1,1 @@
+<?php defined('InShopNC') or exit('Access Invalid!'); return array ( 'admin' => 'admin_id', 'admin_log' => 'id', 'article' => 'article_id', 'article_class' => 'ac_id', 'friendlink' => 'friendlink_id', 'gadmin' => 'gid', 'mb_home' => 'h_id', 'message_board' => 'message_board_id', 'setting' => 'name', 'upload' => 'upload_id', ) ?>

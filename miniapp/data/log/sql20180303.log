@@ -1,0 +1,148 @@
+[2018-03-03 22:26:14] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc limit 5 [ RunTime:1,520,087,174.616966s ]
+
+[2018-03-03 22:26:14] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,087,174.616966s ]
+
+[2018-03-03 22:28:49] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc limit 5 [ RunTime:1,520,087,329.121317s ]
+
+[2018-03-03 22:28:49] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,087,329.121317s ]
+
+[2018-03-03 22:28:54] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc limit 5 [ RunTime:1,520,087,334.433190s ]
+
+[2018-03-03 22:28:54] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,087,334.433190s ]
+
+[2018-03-03 22:37:59] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc limit 5 [ RunTime:1,520,087,879.530825s ]
+
+[2018-03-03 22:37:59] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,087,879.530825s ]
+
+[2018-03-03 22:39:36] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc [ RunTime:1,520,087,976.124834s ]
+
+[2018-03-03 22:39:36] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,087,976.124834s ]
+
+[2018-03-03 22:40:27] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc limit 5 [ RunTime:1,520,088,027.453352s ]
+
+[2018-03-03 22:40:27] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,088,027.453352s ]
+
+[2018-03-03 22:40:29] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc [ RunTime:1,520,088,029.759875s ]
+
+[2018-03-03 22:40:29] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,088,029.759875s ]
+
+[2018-03-03 22:44:37] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc limit 5 [ RunTime:1,520,088,277.719379s ]
+
+[2018-03-03 22:44:37] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,088,277.719379s ]
+
+[2018-03-03 22:44:39] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc [ RunTime:1,520,088,279.766106s ]
+
+[2018-03-03 22:44:39] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,088,279.766106s ]
+
+[2018-03-03 22:47:58] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc limit 5 [ RunTime:1,520,088,478.481151s ]
+
+[2018-03-03 22:47:58] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,088,478.481151s ]
+
+[2018-03-03 22:48:03] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc [ RunTime:1,520,088,483.258563s ]
+
+[2018-03-03 22:48:03] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,088,483.258563s ]
+
+[2018-03-03 22:48:17] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc limit 5 [ RunTime:1,520,088,497.439896s ]
+
+[2018-03-03 22:48:17] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,088,497.439896s ]
+
+[2018-03-03 22:48:19] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc [ RunTime:1,520,088,499.671161s ]
+
+[2018-03-03 22:48:19] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,088,499.671161s ]
+
+[2018-03-03 22:49:06] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc limit 5 [ RunTime:1,520,088,546.859643s ]
+
+[2018-03-03 22:49:06] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,088,546.859643s ]
+
+[2018-03-03 22:49:09] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc [ RunTime:1,520,088,549.675544s ]
+
+[2018-03-03 22:49:09] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,088,549.675544s ]
+
+[2018-03-03 22:49:16] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc limit 5 [ RunTime:1,520,088,556.692345s ]
+
+[2018-03-03 22:49:16] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,088,556.692345s ]
+
+[2018-03-03 22:49:27] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc limit 5 [ RunTime:1,520,088,567.776495s ]
+
+[2018-03-03 22:49:27] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,088,567.776495s ]
+
+[2018-03-03 22:49:30] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc [ RunTime:1,520,088,570.044404s ]
+
+[2018-03-03 22:49:30] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,088,570.044404s ]
+
+[2018-03-03 22:50:40] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc limit 5 [ RunTime:1,520,088,640.187504s ]
+
+[2018-03-03 22:50:40] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,088,640.187504s ]
+
+[2018-03-03 22:54:00] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc limit 5 [ RunTime:1,520,088,840.666345s ]
+
+[2018-03-03 22:54:00] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,088,840.666345s ]
+
+[2018-03-03 22:54:26] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc limit 5 [ RunTime:1,520,088,866.348806s ]
+
+[2018-03-03 22:54:26] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,088,866.348806s ]
+
+[2018-03-03 22:54:34] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc limit 5 [ RunTime:1,520,088,874.958004s ]
+
+[2018-03-03 22:54:34] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,088,874.958004s ]
+
+[2018-03-03 22:54:39] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc [ RunTime:1,520,088,879.266179s ]
+
+[2018-03-03 22:54:39] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,088,879.266179s ]
+
+[2018-03-03 22:54:48] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc limit 5 [ RunTime:1,520,088,888.949923s ]
+
+[2018-03-03 22:54:48] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,088,888.949923s ]
+
+[2018-03-03 22:54:51] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc [ RunTime:1,520,088,891.265396s ]
+
+[2018-03-03 22:54:51] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,088,891.265396s ]
+
+[2018-03-03 22:55:43] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc limit 5 [ RunTime:1,520,088,943.067068s ]
+
+[2018-03-03 22:55:43] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,088,943.067068s ]
+
+[2018-03-03 22:55:45] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc limit 5 [ RunTime:1,520,088,945.026607s ]
+
+[2018-03-03 22:55:45] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,088,945.026607s ]
+
+[2018-03-03 22:55:46] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc [ RunTime:1,520,088,946.676871s ]
+
+[2018-03-03 22:55:46] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,088,946.676871s ]
+
+[2018-03-03 22:56:14] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc limit 5 [ RunTime:1,520,088,974.950478s ]
+
+[2018-03-03 22:56:14] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,088,974.950478s ]
+
+[2018-03-03 22:56:17] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc [ RunTime:1,520,088,977.273989s ]
+
+[2018-03-03 22:56:17] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,088,977.273989s ]
+
+[2018-03-03 22:56:46] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc limit 5 [ RunTime:1,520,089,006.043226s ]
+
+[2018-03-03 22:56:46] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,089,006.043226s ]
+
+[2018-03-03 22:56:47] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc [ RunTime:1,520,089,007.531735s ]
+
+[2018-03-03 22:56:47] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,089,007.531735s ]
+
+[2018-03-03 22:56:57] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc limit 5 [ RunTime:1,520,089,017.425693s ]
+
+[2018-03-03 22:56:57] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,089,017.425693s ]
+
+[2018-03-03 22:57:00] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc [ RunTime:1,520,089,020.181676s ]
+
+[2018-03-03 22:57:00] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,089,020.181676s ]
+
+[2018-03-03 22:57:12] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc limit 5 [ RunTime:1,520,089,032.690002s ]
+
+[2018-03-03 22:57:12] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,089,032.690002s ]
+
+[2018-03-03 22:57:15] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc [ RunTime:1,520,089,035.395429s ]
+
+[2018-03-03 22:57:15] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,089,035.395429s ]
+
+[2018-03-03 22:58:17] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc [ RunTime:1,520,089,097.477601s ]
+
+[2018-03-03 22:58:17] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,520,089,097.477601s ]
+

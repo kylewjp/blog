@@ -1,0 +1,8 @@
+<import src="../../wxParse/wxParse.wxml"/> 
+<view class='container'>
+  <view class='title'>{{article_title}}</view>
+  <view class='date'><image src='{{date}}'></image>{{article_time}}</view>
+  <view class="wxParse">
+      <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+  </view>
+</view>

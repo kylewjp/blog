@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/articleclass/articleclass",    
+    "pages/articlelist/articlelist",
+    "pages/article_detail/article_detail",    
+    "pages/logs/logs",
+    "pages/aboutme/aboutme"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "PHP历程——从零出发",
+    "navigationBarTextStyle":"black"
+  },
+    "tabBar": {
+    "color": "#333",
+    "selectedColor": "#20B2AA",
+    "backgroundColor": "#f6f6f7",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index_icon.png",
+        "selectedIconPath": "images/index_icon_HL.png"
+      },
+      {
+        "pagePath": "pages/aboutme/aboutme",
+        "text": "关于我",
+        "iconPath": "images/user_icon.png",
+        "selectedIconPath": "images/user_icon_HL.png"
+      }
+    ]
+    }
+}

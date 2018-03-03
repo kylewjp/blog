@@ -1,0 +1,111 @@
+[2018-02-19 19:05:37] /home/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 19:05:39] http://www.tpblog.net/home/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 19:05:39] /home/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:10:34] /home/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:21:19] /home/index.php?act=index&op=articleDetail&article_id=3 ( act=index&op=articledetail ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:21:19] /home/index.php?act=index&op=articleDetail&article_id=3 ( act=index&op=articledetail ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:21:22] /home/index.php?act=index&op=index ( act=index&op=index ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:21:23] /home/index.php?act=index&op=index ( act=index&op=index ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:21:24] /home/index.php?act=index&op=index ( act=index&op=index ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:21:26] /home/index.php?act=index&op=articleClass ( act=index&op=articleclass ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:21:28] /home/index.php?act=index&op=aboutMe ( act=index&op=aboutme ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:21:30] /home/index.php?act=index&op=index ( act=index&op=index ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:21:32] /home/index.php?act=index&op=articleList ( act=index&op=articlelist ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:21:33] /home/index.php?act=index&op=articleClass ( act=index&op=articleclass ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:21:35] /home/index.php?act=index&op=aboutMe ( act=index&op=aboutme ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:21:36] /home/index.php?act=index&op=articleList ( act=index&op=articlelist ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:21:36] /home/index.php?act=index&op=articleList ( act=index&op=articlelist ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:21:37] /home/index.php?act=index&op=index ( act=index&op=index ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:21:46] /home/index.php?act=index&op=articleDetail&article_id=3 ( act=index&op=articledetail ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:21:46] /home/index.php?act=index&op=articleDetail&article_id=3 ( act=index&op=articledetail ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:40:21] /home/index.php?act=index&op=index ( act=index&op=index ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:40:22] /home/index.php?act=index&op=articleDetail&article_id=4 ( act=index&op=articledetail ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:40:22] /home/index.php?act=index&op=articleDetail&article_id=4 ( act=index&op=articledetail ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:40:25] /home/index.php?act=index&op=index ( act=index&op=index ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:40:26] /home/index.php?act=index&op=articleList ( act=index&op=articlelist ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:40:27] /home/index.php?act=index&op=articleDetail&article_id=3 ( act=index&op=articledetail ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:40:27] /home/index.php?act=index&op=articleDetail&article_id=3 ( act=index&op=articledetail ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:40:29] /home/index.php?act=index&op=articleList ( act=index&op=articlelist ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:40:30] /home/index.php?act=index&op=articleDetail&article_id=1 ( act=index&op=articledetail ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:40:31] /home/index.php?act=index&op=articleClass ( act=index&op=articleclass ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:40:33] /home/index.php?act=index&op=articleDetail&article_id=2 ( act=index&op=articledetail ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:40:33] /home/index.php?act=index&op=articleDetail&article_id=2 ( act=index&op=articledetail ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:46:04] /home/index.php?act=index&op=articleDetail&article_id=2 ( act=index&op=articledetail ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 20:46:04] /home/index.php?act=index&op=articleDetail&article_id=2 ( act=index&op=articledetail ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 22:19:02] /home/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 22:19:04] /home/index.php?act=index&op=articleDetail&article_id=3 ( act=index&op=articledetail ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-02-19 22:19:04] /home/index.php?act=index&op=articleDetail&article_id=3 ( act=index&op=articledetail ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  

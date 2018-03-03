@@ -1,0 +1,29 @@
+.container{
+    background:#fff;
+    width: 100%;
+     padding:  0 40rpx 0 40rxp; 
+     margin-bottom: 20rpx; 
+    border-bottom: 2rpx solid #eee;
+}
+.title{
+  font-family: Helvetica,sans-serif;
+  font-size:1.05em;
+  font-weight: bolder;
+  margin: 8rpx;
+}
+.date{
+  font-family: Helvetica,sans-serif;
+  font-size: 20rpx;
+  color: #666;
+  margin-top:15rpx;
+  margin-bottom: 15rpx;
+}
+.date image{
+  width: 20rpx;
+  height: 20rpx;
+  margin: 0 10rpx;
+}
+.wxParse{
+  margin-bottom: 20rpx;
+  font-size: 32rpx;
+}

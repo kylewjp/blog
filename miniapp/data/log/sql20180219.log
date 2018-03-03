@@ -1,0 +1,6 @@
+[2018-02-19 19:05:42] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,038,342.914204s ]
+
+[2018-02-19 20:28:12] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,043,292.457005s ]
+
+[2018-02-19 22:11:38] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,049,498.940932s ]
+

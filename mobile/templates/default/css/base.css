@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* 清除默认样式 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+strong,b,h1,h2,h3,h4,h5,h6{ font-weight: bold; }
+input{
+	vertical-align: middle;
+}
+/* 公共样式 */
+:after, :before{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Microsoft YaHei',Arial,'WenQuanYi Micro Hei',sans-serif;
+    font-size: 12px;
+    height: 100%;
+    line-height: 1.42857;
+    background-color: #fff;
+}
+a,body{
+	color: #333;
+	text-decoration: none;
+}
+img{
+    width: 100%;
+    height: auto;
+	border: 0;
+}
+html,body{
+    font-size: 10px;
+}
+@media only screen and(min-width: 401px) {
+    html,body{
+        font-size: 25px!important;
+    }
+}
+@media only screen and(min-width: 428px) {
+    html,body{
+        font-size: 26.75px!important;
+    }
+}
+@media only screen and(min-width: 481px) {
+    html,body{
+        font-size: 30px!important;
+    }
+}
+@media only screen and(min-width: 569px) {
+    html,body{
+        font-size: 35px!important;
+    }
+}
+@media only screen and(min-width: 641px) {
+    html,body{
+        font-size: 40px!important;
+    }
+}
+
+/*布局*/
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.h40{
+    height: 40px;
+}
+.h30{
+	height: 30px;
+}
+.clear{ clear: both; }
+
+.box{
+	width: 1002px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#left{
+	float: left;
+    width: 306px;
+    overflow: hidden;
+}
+#right{
+	float: right;
+    width: 696px;
+    overflow: hidden;
+}

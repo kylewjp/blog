@@ -1,0 +1,48 @@
+[2018-02-20 10:06:57] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,092,417.407470s ]
+
+[2018-02-20 21:03:54] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,131,834.408440s ]
+
+[2018-02-20 22:24:55] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,136,695.177177s ]
+
+[2018-02-20 23:32:43] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,140,763.964704s ]
+
+[2018-02-20 23:33:02] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,140,782.435189s ]
+
+[2018-02-20 23:33:26] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,140,806.481485s ]
+
+[2018-02-20 23:39:49] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,141,189.002687s ]
+
+[2018-02-20 23:39:49] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,141,189.318550s ]
+
+[2018-02-20 23:40:18] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,141,218.453026s ]
+
+[2018-02-20 23:40:18] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,141,218.513791s ]
+
+[2018-02-20 23:40:41] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,141,241.365290s ]
+
+[2018-02-20 23:40:41] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,141,241.409391s ]
+
+[2018-02-20 23:41:11] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,141,271.035653s ]
+
+[2018-02-20 23:41:11] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,141,271.091577s ]
+
+[2018-02-20 23:41:44] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,141,304.861892s ]
+
+[2018-02-20 23:41:44] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,141,304.900049s ]
+
+[2018-02-20 23:42:15] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,141,335.698857s ]
+
+[2018-02-20 23:42:15] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,141,335.731184s ]
+
+[2018-02-20 23:45:11] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,141,511.158240s ]
+
+[2018-02-20 23:45:22] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,141,522.891059s ]
+
+[2018-02-20 23:45:23] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,141,523.756136s ]
+
+[2018-02-20 23:45:28] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,141,528.164416s ]
+
+[2018-02-20 23:45:30] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,141,530.876277s ]
+
+[2018-02-20 23:46:31] sql: SELECT * FROM `jq_article` as `article`   order by article_sort asc,article_time desc [ RunTime:1,519,141,591.426285s ]
+

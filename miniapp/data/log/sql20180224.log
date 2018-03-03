@@ -1,0 +1,26 @@
+[2018-02-24 00:00:42] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc limit 5 [ RunTime:1,519,401,642.209386s ]
+
+[2018-02-24 00:00:42] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,519,401,642.209386s ]
+
+[2018-02-24 00:02:00] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc [ RunTime:1,519,401,720.621757s ]
+
+[2018-02-24 00:02:00] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,519,401,720.621757s ]
+
+[2018-02-24 00:02:03] sql: SELECT * FROM `jq_article` WHERE article_id='5' [ RunTime:1,519,401,723.684552s ]
+
+[2018-02-24 00:02:19] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc [ RunTime:1,519,401,739.953168s ]
+
+[2018-02-24 00:02:19] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,519,401,739.953168s ]
+
+[2018-02-24 00:02:29] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc [ RunTime:1,519,401,749.892900s ]
+
+[2018-02-24 00:02:29] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,519,401,749.892900s ]
+
+[2018-02-24 00:02:35] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc [ RunTime:1,519,401,755.652528s ]
+
+[2018-02-24 00:02:35] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,519,401,755.652528s ]
+
+[2018-02-24 00:02:38] sql: SELECT * FROM `jq_article` as `article`  WHERE  article.article_show = '1' order by article_time desc [ RunTime:1,519,401,758.482721s ]
+
+[2018-02-24 00:02:38] sql: SELECT * FROM `jq_article_class` as `article_class`   order by ac_parent_id asc,ac_sort asc,ac_id asc [ RunTime:1,519,401,758.482721s ]
+
