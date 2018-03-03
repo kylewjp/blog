@@ -22,7 +22,7 @@
     <?php echo $output['article_info']['article_content'];?>
 
   </section>
-  <h2 style="color:red"><strong>版权声明：博客中的文章版权归博主所有，未经授权，禁止转载，转载请注明出处，合作请联系：LINBE</strong></h2>
+  <h2 style="color:red"><strong>版权声明：博客中的文章版权归博主所有，未经授权，禁止转载，转载请注明出处</strong></h2>
 </article>
     </div>
 </div>
