@@ -56,8 +56,7 @@ class dashboardControl extends SystemControl{
 		
 		$showlist = $this->listPage();
 		Tpl::output('showlist',$showlist);
-		
-		
+
 		Tpl::output('admin_info',$admin_info);
 		Tpl::showpage('welcome');
 	}
@@ -70,83 +69,23 @@ class dashboardControl extends SystemControl{
 		$showlist = array();
 		/** 
 		 *	板块开始1
-		 *	公司
+		 *	文章
 		 */
 		$showlistarray = array();
 		$showlistarray[] = array(
 				'param_show_type'=>'normal',					//小模块数据提醒显示 normal(表示普通不发亮),high（表示红色发亮）
-				'param_url'=>'index.php?act=wjp_company&op=list_see',	//小模块跳转连接
-				'text_title_name'=> L('dashboard_wel_company_see'),	//小模块名字
-				'param_title_name'=>'companysee'			//获取数据的标签***
+				'param_url'=>'index.php?act=article_class&op=article_class',	//小模块跳转连接
+				'text_title_name'=> '管理分类',	//小模块名字
+				'param_title_name'=>'classSee'			//获取数据的标签***
 			);
 		$showlist[] = array(
-					'param_picture_name'=>'pic0',				//板块图片标签[pic0-pic8]
-					'param_title_name'=>'companynum',				//获取板块数据标签***
-					'text_title_name_title'=> L('dashboard_wel_company_title'),	//数据介绍
-					'text_title_name'=> L('dashboard_wel_company_info'),		//板块名字
-					'text_title_name_subhead'=>L('dashboard_wel_company_fu'),	//板块副标题
-					'array'=>$showlistarray
-					);
-		/******板块结束*****/
-		/** 
-		 *	板块开始2
-		 *	人员
-		 */
-		$showlistarray = array();
-		$showlistarray[] = array(
-				'param_show_type'=>'normal',					//小模块数据提醒显示 normal(表示普通不发亮),high（表示红色发亮）
-				'param_url'=>'index.php?act=wjp_personel&op=list_see',	//小模块跳转连接
-				'text_title_name'=> L('dashboard_wel_personel_see'),	//小模块名字
-				'param_title_name'=>'personelsee'			//获取数据的标签***
-			);
-		$showlist[] = array(
-					'param_picture_name'=>'pic0',				//板块图片标签[pic0-pic8]
-					'param_title_name'=>'personelnum',				//获取板块数据标签***
-					'text_title_name_title'=> L('dashboard_wel_personel_title'),	//数据介绍
-					'text_title_name'=> L('dashboard_wel_personel_info'),		//板块名字
-					'text_title_name_subhead'=>L('dashboard_wel_personel_fu'),	//板块副标题
-					'array'=>$showlistarray
-					);
-		/******板块结束*****/
-		/** 
-		 *	板块开始3
-		 *	司机
-		 */
-		$showlistarray = array();
-		$showlistarray[] = array(
-				'param_show_type'=>'normal',					//小模块数据提醒显示 normal(表示普通不发亮),high（表示红色发亮）
-				'param_url'=>'index.php?act=wjp_driver&op=list_see',	//小模块跳转连接
-				'text_title_name'=> L('dashboard_wel_driver_see'),	//小模块名字
-				'param_title_name'=>'driversee'			//获取数据的标签***
-			);
-		$showlist[] = array(
-					'param_picture_name'=>'pic0',				//板块图片标签[pic0-pic8]
-					'param_title_name'=>'drivernum',				//获取板块数据标签***
-					'text_title_name_title'=> L('dashboard_wel_driver_title'),	//数据介绍
-					'text_title_name'=> L('dashboard_wel_driver_info'),		//板块名字
-					'text_title_name_subhead'=>L('dashboard_wel_driver_fu'),	//板块副标题
-					'array'=>$showlistarray
-					);
-		/******板块结束*****/
-		/** 
-		 *	板块开始4
-		 *  运单
-		 */
-		$showlistarray = array();
-		$showlistarray[] = array(
-				'param_show_type'=>'normal',					//小模块数据提醒显示 normal(表示普通不发亮),high（表示红色发亮）
-				'param_url'=>'index.php?act=wjp_order&op=list_see',	//小模块跳转连接
-				'text_title_name'=> L('dashboard_wel_order_see'),	//小模块名字
-				'param_title_name'=>'ordersee'			//获取数据的标签***
-			);
-		$showlist[] = array(
-					'param_picture_name'=>'pic0',				//板块图片标签[pic0-pic8]
-					'param_title_name'=>'ordernum',				//获取板块数据标签***
-					'text_title_name_title'=> L('dashboard_wel_order_title'),	//数据介绍
-					'text_title_name'=> L('dashboard_wel_order_info'),		//板块名字
-					'text_title_name_subhead'=>L('dashboard_wel_order_fu'),	//板块副标题
-					'array'=>$showlistarray
-					);
+                'param_picture_name'=>'pic0',				//板块图片标签[pic0-pic8]
+                'param_title_name'=>'classNum',				//获取板块数据标签***
+                'text_title_name_title'=> '分类数量',	//数据介绍
+                'text_title_name'=> '分类数量',		    //板块名字
+                'text_title_name_subhead'=> '副标题',	//板块副标题
+                'array'=>$showlistarray                 //底部跳转配置
+            );
 		/******板块结束*****/
 		return $showlist;
 	}
@@ -157,15 +96,9 @@ class dashboardControl extends SystemControl{
 		$model_stat= Model('stat');
         // 本周开始时间点
         $tmp_time = mktime(0,0,0,date('m'),date('d'),date('Y'))-(date('w')==0?7:date('w')-1)*24*60*60;
-        // 公司总数
-        $this->paramList['companynum'] = $model_stat->count_table('company');
-        // 人员总数
-        $this->paramList['personelnum'] = $model_stat->count_table('personel')-1;//减去未设置这个人员
-        // 司机总数
-        $this->paramList['drivernum'] = $model_stat->count_table('driver');
-        // 订单总数
-        $this->paramList['ordernum'] = $model_stat->count_table('order');
-
+        // 分类总数
+        $this->paramList['classNum'] = '??';
+        $this->paramList['classSee'] = '';
         echo json_encode($this->paramList);
 		exit;
 	}

@@ -322,3 +322,216 @@ SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30
 [2018-03-03 22:46:39] /home/index.php?act=index&op=articleList ( act=index&op=articlelist ) 
 ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
 SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-03-03 23:45:58] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'tpblog.jq_lock' doesn't exist
+SELECT * FROM `tpblog`.`jq_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2018-03-03 23:45:58] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'tpblog.jq_lock' doesn't exist
+DELETE  FROM `tpblog`.`jq_lock` WHERE ( pid = '213070643305' )
+[2018-03-03 23:45:58] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'tpblog.jq_lock' doesn't exist
+DELETE  FROM `tpblog`.`jq_lock` WHERE ( pid = '21307064335' )
+[2018-03-03 23:45:58] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_company' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_company` LIMIT 1  
+[2018-03-03 23:45:58] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_personel' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_personel` LIMIT 1  
+[2018-03-03 23:45:58] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_driver' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_driver` LIMIT 1  
+[2018-03-03 23:45:58] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_order' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_order` LIMIT 1  
+[2018-03-03 23:46:10] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_company' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_company` LIMIT 1  
+[2018-03-03 23:46:10] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_personel' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_personel` LIMIT 1  
+[2018-03-03 23:46:10] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_driver' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_driver` LIMIT 1  
+[2018-03-03 23:46:10] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_order' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_order` LIMIT 1  
+[2018-03-03 23:46:12] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_company' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_company` LIMIT 1  
+[2018-03-03 23:46:12] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_personel' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_personel` LIMIT 1  
+[2018-03-03 23:46:12] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_driver' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_driver` LIMIT 1  
+[2018-03-03 23:46:12] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_order' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_order` LIMIT 1  
+[2018-03-03 23:46:22] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_company' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_company` LIMIT 1  
+[2018-03-03 23:46:22] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_personel' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_personel` LIMIT 1  
+[2018-03-03 23:46:22] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_driver' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_driver` LIMIT 1  
+[2018-03-03 23:46:22] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_order' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_order` LIMIT 1  
+[2018-03-03 23:47:31] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'tpblog.jq_lock' doesn't exist
+SELECT * FROM `tpblog`.`jq_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2018-03-03 23:47:31] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'tpblog.jq_lock' doesn't exist
+DELETE  FROM `tpblog`.`jq_lock` WHERE ( pid = '213070643305' )
+[2018-03-03 23:47:31] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'tpblog.jq_lock' doesn't exist
+DELETE  FROM `tpblog`.`jq_lock` WHERE ( pid = '21307064335' )
+[2018-03-03 23:48:52] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_company' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_company` LIMIT 1  
+[2018-03-03 23:48:52] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_personel' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_personel` LIMIT 1  
+[2018-03-03 23:48:52] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_driver' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_driver` LIMIT 1  
+[2018-03-03 23:48:52] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_order' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_order` LIMIT 1  
+[2018-03-03 23:48:55] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_company' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_company` LIMIT 1  
+[2018-03-03 23:48:55] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_personel' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_personel` LIMIT 1  
+[2018-03-03 23:48:55] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_driver' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_driver` LIMIT 1  
+[2018-03-03 23:48:55] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_order' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_order` LIMIT 1  
+[2018-03-03 23:49:01] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_company' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_company` LIMIT 1  
+[2018-03-03 23:49:01] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_personel' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_personel` LIMIT 1  
+[2018-03-03 23:49:01] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_driver' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_driver` LIMIT 1  
+[2018-03-03 23:49:01] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_order' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_order` LIMIT 1  
+[2018-03-03 23:53:42] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_company' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_company` LIMIT 1  
+[2018-03-03 23:53:42] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_personel' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_personel` LIMIT 1  
+[2018-03-03 23:53:42] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_driver' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_driver` LIMIT 1  
+[2018-03-03 23:53:42] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_order' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_order` LIMIT 1  
+[2018-03-03 23:53:45] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_company' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_company` LIMIT 1  
+[2018-03-03 23:53:45] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_personel' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_personel` LIMIT 1  
+[2018-03-03 23:53:45] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_driver' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_driver` LIMIT 1  
+[2018-03-03 23:53:45] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_order' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_order` LIMIT 1  
+[2018-03-03 23:54:43] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_company' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_company` LIMIT 1  
+[2018-03-03 23:54:43] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_personel' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_personel` LIMIT 1  
+[2018-03-03 23:54:43] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_driver' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_driver` LIMIT 1  
+[2018-03-03 23:54:43] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_order' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_order` LIMIT 1  
+[2018-03-03 23:54:45] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_company' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_company` LIMIT 1  
+[2018-03-03 23:54:45] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_personel' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_personel` LIMIT 1  
+[2018-03-03 23:54:45] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_driver' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_driver` LIMIT 1  
+[2018-03-03 23:54:45] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_order' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_order` LIMIT 1  
+[2018-03-03 23:54:48] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_company' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_company` LIMIT 1  
+[2018-03-03 23:54:48] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_personel' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_personel` LIMIT 1  
+[2018-03-03 23:54:48] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_driver' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_driver` LIMIT 1  
+[2018-03-03 23:54:48] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_order' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_order` LIMIT 1  
+[2018-03-03 23:54:50] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_company' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_company` LIMIT 1  
+[2018-03-03 23:54:50] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_personel' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_personel` LIMIT 1  
+[2018-03-03 23:54:50] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_driver' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_driver` LIMIT 1  
+[2018-03-03 23:54:50] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_order' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_order` LIMIT 1  
+[2018-03-03 23:55:04] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_company' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_company` LIMIT 1  
+[2018-03-03 23:55:04] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_personel' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_personel` LIMIT 1  
+[2018-03-03 23:55:04] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_driver' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_driver` LIMIT 1  
+[2018-03-03 23:55:04] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_order' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_order` LIMIT 1  
+[2018-03-03 23:55:05] /home/ ( act=index&op=index ) 
+ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
+SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
+[2018-03-03 23:59:00] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_company' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_company` LIMIT 1  
+[2018-03-03 23:59:00] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_personel' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_personel` LIMIT 1  
+[2018-03-03 23:59:00] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_driver' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_driver` LIMIT 1  
+[2018-03-03 23:59:00] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_order' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_order` LIMIT 1  
+[2018-03-03 23:59:56] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_company' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_company` LIMIT 1  
+[2018-03-03 23:59:56] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_personel' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_personel` LIMIT 1  
+[2018-03-03 23:59:56] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_driver' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_driver` LIMIT 1  
+[2018-03-03 23:59:56] /admin/index.php?act=dashboard&op=statistics ( act=dashboard&op=statistics ) 
+ERR: Db Error: Table 'tpblog.jq_order' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `tpblog`.`jq_order` LIMIT 1  

@@ -16,6 +16,7 @@ if (!@include(BASE_CORE_PATH.'/shopnc.php')) exit('shopnc.php isn\'t exists!');
 define('TPL_NAME',TPL_ADMIN_NAME);
 define('ADMIN_TEMPLATES_URL',ADMIN_SITE_URL.'/templates/'.TPL_NAME);
 define('BASE_TPL_PATH',BASE_PATH.'/templates/'.TPL_NAME);
+define('APP_SITE_URL',$config['shop_site_url']);
 
 if (!@include(BASE_PATH.'/control/control.php')) exit('control.php isn\'t exists!');
 session_start();

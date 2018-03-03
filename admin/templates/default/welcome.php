@@ -22,7 +22,6 @@
       </dt>
       <dd>
         <ul>
-        
             <?php foreach($v['array'] as $array_k => $array_v){ ?>
               <li class="w50pre <?php echo $array_v['param_show_type']; ?>">
                   <a href="<?php echo $array_v['param_url']; ?>">
@@ -54,8 +53,8 @@
       </dt>
       <dd>
         <ul>
-          <li class="w50pre none"><a href="http://www.mphelper.net" target="_blank">官方网站<sub></sub></a></li>
-          <li class="w50pre none"><a href="http://bbs.mphelper.net" target="_blank">官方论坛<sub></sub></a></li>
+          <li class="w50pre none"><a href="<?php echo APP_SITE_URL; ?>" target="_blank">博客首页<sub></sub></a></li>
+          <li class="w50pre none"><a href="<?php echo APP_SITE_URL; ?>" target="_blank">博客首页<sub></sub></a></li>
         </ul>
       </dd>
     </dl>

@@ -14,13 +14,13 @@ defined('InShopNC') or exit('Access Invalid!');
  */
 $arr = array(
 		'top' => array(
-//			0 => array(
-//				'args' 	=> 'dashboard',
-//				'text' 	=> $lang['nc_console']),
 			0 => array(
+				'args' 	=> 'dashboard',
+				'text' 	=> $lang['nc_console']),
+			1 => array(
 				'args' 	=> 'setting',
 				'text' 	=> $lang['nc_config']),
-            1 => array(
+            2 => array(
                 'args' 	=> 'article',
                 'text' 	=> '相关文章'),
 		),
@@ -29,7 +29,7 @@ $arr = array(
 				'nav' => 'dashboard',
 				'text' => $lang['nc_normal_handle'],
 				'list' => array(
-//					array('args'=>'welcome,dashboard,dashboard',			'text'=>$lang['nc_welcome_page']),
+					array('args'=>'welcome,dashboard,dashboard',			'text'=>$lang['nc_welcome_page']),
 					array('args'=>'aboutus,dashboard,dashboard',			'text'=>$lang['nc_aboutus']),
 					array('args'=>'base,setting,dashboard',					'text'=>$lang['nc_web_set']),
 					
