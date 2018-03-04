@@ -1,1 +1,1 @@
-<?php defined('InShopNC') or exit('Access Invalid!'); return array ( 'site_name' => '吴佳鹏', 'site_logo' => '05734897907424955.jpg', 'member_logo' => '05734899124860268.jpg', 'seller_center_logo' => '05715883668035528.png', 'site_intro' => '2014年毕业于：广东海洋大学 软件工程专业。', ) ?>
+<?php defined('InShopNC') or exit('Access Invalid!'); return array ( 'site_name' => '吴佳鹏', 'site_logo' => '05734897907424955.jpg', 'member_logo' => '05734899124860268.jpg', 'seller_center_logo' => '05734903156075852.jpg', 'site_intro' => '2014年毕业于：广东海洋大学 软件工程专业。', ) ?>
