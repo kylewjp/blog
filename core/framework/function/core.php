@@ -26,7 +26,7 @@ function htmlToText($str){
         "'&(cent|#162);'i",
         "'&(pound|#163);'i",
         "'&(copy|#169);'i",
-        "'&#(\d+);'e");          // 作为 PHP 代码运行
+        "'&#(\d+);'");          // 作为 PHP 代码运行
 
     $replace = array ("",
         "",
@@ -41,7 +41,6 @@ function htmlToText($str){
         chr(163),
         chr(169),
         "chr(\\1)");
-
     $str = preg_replace ($search, $replace, $str);
     return $str;
 }
