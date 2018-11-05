@@ -1,3 +1,0 @@
-[2018-02-12 21:47:21] /home/index.php ( act=index&op=index ) 
-ERR: Db Error: Table 'tpblog.jq_navigation' doesn't exist
-SELECT * FROM `tpblog`.`jq_navigation` ORDER BY nav_sort LIMIT 30  
