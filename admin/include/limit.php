@@ -26,6 +26,9 @@ $_limit =  array(
 
         array('name'=>'客户留言', 'op'=>'list', 'act'=>'message_board'),
     )),
+    array('name'=>'文件管理', 'child'=>array(
+        array('name'=>'文件管理', 'op'=>'index', 'act'=>'upload'),
+    )),
 	
 );
 return $_limit;

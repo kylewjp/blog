@@ -19,14 +19,14 @@ class uploadModel{
 	 * @param array $condition 检索条件
 	 * @return array 数组结构的返回结果
 	 */
-	public function getUploadList($condition,$field='*'){
+	public function getUploadList($condition,$page=''){
 		$condition_str = $this->_condition($condition);
 		$param = array();
 		$param['table'] = 'upload';
-		$param['field'] = $field;
+		$param['field'] = empty($condition['field'])?'*':$condition['field'];
 		$param['where'] = $condition_str;
-		$param['order']	= 'upload_id asc';
-		$result = Db::select($param);
+		$param['order']	= 'upload_id desc';
+		$result = Db::select($param,$page);
 		return $result;
 	}
 
@@ -47,6 +47,9 @@ class uploadModel{
 		}
 		if ($condition['file_name'] != '') {
 			$condition_str	.= " and file_name = '".$condition['file_name']."'";
+		}
+		if ($condition['like_file_name'] != '') {
+			$condition_str	.= " and file_name like '%".$condition['like_file_name']."%'";
 		}
 		if (isset($condition['upload_type_in'])){
 			if ($condition['upload_type_in'] == ''){

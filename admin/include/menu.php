@@ -23,6 +23,9 @@ $arr = array(
             2 => array(
                 'args' 	=> 'article',
                 'text' 	=> '相关文章'),
+            3 => array(
+                'args' 	=> 'uploads',
+                'text' 	=> '文件管理'),
 		),
 		'left' =>array(
 			0 => array(
@@ -59,6 +62,13 @@ $arr = array(
 
                     array('args'=>'list,message_board,article',	'text'=>'客户留言'),
 //					array('args'=>'list,message_board,article',	'text'=>'管理员留言'),
+                )
+            ),
+            3 => array(
+                'nav' => 'uploads',
+                'text' => '文件管理',
+                'list' => array(
+                    array('args'=>'index,upload,uploads',	'text'=>'文件管理'),
                 )
             ),
 		)
